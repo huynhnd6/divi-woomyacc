@@ -3,6 +3,10 @@
 
 ![screenshot](https://github.com/izzuddinfz/divi-woomyacc/raw/master/Annotation%202019-04-04%20122410.png)
 
+![screenshot](https://github.com/izzuddinfz/divi-woomyacc/raw/master/Annotation%202019-04-18%20222758.png)
+
+![screenshot](https://github.com/izzuddinfz/divi-woomyacc/raw/master/Annotation%202019-04-18%20222913.png)
+
 ## Usage
 
 Use by copy the css (custom.css) code to the Custom CSS in Divi > Theme Option.
