@@ -16,4 +16,6 @@ Copy code below to function.php, the function of the code please refer to the co
 ```php
 add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 40 );
 // Add "Add to Cart" Button To Loop
+remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10 );
+// Remove Sidebar
 ```
