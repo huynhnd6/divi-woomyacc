@@ -118,6 +118,10 @@ nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover:after {
 	font-family: ETmodules!important;
 	content: "\e076" !important;
 }
+#add_payment_method .cart-collaterals .shipping-calculator-button::after, .woocommerce-cart .cart-collaterals .shipping-calculator-button::after, .woocommerce-checkout .cart-collaterals .shipping-calculator-button::after {
+	font-family: ETmodules!important;
+	content: "\e0e7" !important;
+}
 /* MYACCOUNT END */
 /* WC GENERIC */
 .woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message {
