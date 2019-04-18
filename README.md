@@ -19,11 +19,10 @@ add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_t
 remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10 );
 // Remove Sidebar
 if ( ! function_exists( 'et_show_cart_total' ) ) {
-	function et_show_cart_total( $args = array() ) {
+	function et_show_cart_total() {
 		if ( ! class_exists( 'woocommerce' ) || ! WC()->cart ) {
 			return;
 		}
-		$args = wp_parse_args( $args, $defaults );
 		$url = WC()->cart->get_cart_url();
 		$items_number = WC()->cart->get_cart_contents_count();
 		if ($items_number != 0) {
