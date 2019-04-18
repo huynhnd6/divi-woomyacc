@@ -9,9 +9,7 @@
 
 ## Usage
 
-Use by copy the css (custom.css) code to the Custom CSS in Divi > Theme Option.
-
-Else copy this css (custom.css) to your child theme css.
+Use by copy the css ([custom.css]: https://github.com/izzuddinfz/divi-woomyacc/blob/master/custom.css) code to the Custom CSS in Divi > Theme Option else copy this css ([custom.css]: https://github.com/izzuddinfz/divi-woomyacc/blob/master/custom.css) to your child theme css.
 
 Copy code below to function.php, the function of the code please refer to the comments.
 
