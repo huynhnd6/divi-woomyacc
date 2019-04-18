@@ -18,4 +18,24 @@ add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_t
 // Add "Add to Cart" Button To Loop
 remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10 );
 // Remove Sidebar
+if ( ! function_exists( 'et_show_cart_total' ) ) {
+	function et_show_cart_total( $args = array() ) {
+		if ( ! class_exists( 'woocommerce' ) || ! WC()->cart ) {
+			return;
+		}
+		$args = wp_parse_args( $args, $defaults );
+		$url = WC()->cart->get_cart_url();
+		$items_number = WC()->cart->get_cart_contents_count();
+		if ($items_number != 0) {
+			$total_order = WC()->cart->get_cart_total();
+			printf(
+				'<a href="%1$s" class="et-cart-info">
+					<span class="count"><i>%2$s</i> %3$s</span>
+				</a>',
+				esc_url($url), $items_number, strip_tags($total_order)
+			);
+		}
+	}
+}
+// Add Cart Value To Cart Icon
 ```
