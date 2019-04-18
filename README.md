@@ -7,8 +7,6 @@
 
 ![screenshot](https://github.com/izzuddinfz/divi-woomyacc/raw/master/Annotation%202019-04-19%20025704.png)
 
-![screenshot](https://github.com/izzuddinfz/divi-woomyacc/raw/master/Annotation%202019-04-19%20025405.png)
-
 ## Usage
 
 Use by copy the css ([custom.css](https://github.com/izzuddinfz/divi-woomyacc/blob/master/custom.css)) code to the Custom CSS in Divi > Theme Option else copy this css ([custom.css](https://github.com/izzuddinfz/divi-woomyacc/blob/master/custom.css)) to your child theme css.
