@@ -98,13 +98,25 @@ nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover:after {
 	margin-right: 20px;
 	opacity: .25
 }
-
 .woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover:before {
 	opacity: 1
 }
-
 .woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a:before {
 	opacity: 1
+}
+.woocommerce table.my_account_orders {
+    font-size: 1em !important;
+}
+.woocommerce .woocommerce-MyAccount-content p {
+	padding-bottom: 10px;
+}
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone::before {
+	font-family: ETmodules!important;
+	content: "\e090" !important;
+}
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--email::before {
+	font-family: ETmodules!important;
+	content: "\e076" !important;
 }
 /* MYACCOUNT END */
 /* WC GENERIC */
@@ -125,6 +137,15 @@ nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover:after {
 .woocommerce button.button:disabled[disabled],
 .woocommerce .disabled {
 	display: none !important;
+}
+.woocommerce .woocommerce-error {
+	background: #F44336 !important;
+}
+.woocommerce .woocommerce-info {
+	background: #00BCD4 !important;
+}
+.woocommerce .woocommerce-message {
+	background: #4CAF50 !important;
 }
 /* WC GENERIC END */
 /* PRODUCT LOOP */
@@ -376,6 +397,35 @@ nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover:after {
 	margin-top: 20px !important;
 }
 /* CHECKOUT END */
+/* FORM */
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea,
+.woocommerce #content .quantity input.qty,
+.woocommerce .quantity input.qty,
+.woocommerce-cart table.cart td.actions .coupon .input-text,
+.woocommerce-page #content .quantity input.qty,
+.woocommerce-page .quantity input.qty,
+input.text,
+input.title,
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=text],
+select,
+textarea {
+    padding: 0.5em 0.8em !important;
+    font-size: 1em !important;
+	height: unset !important;
+	border: 1px solid #bbb !important;
+    color: #4e4e4e !important;
+    background-color: #fff !important;
+	border-radius: 3px;
+}
+select option {
+	padding: 0.5em 0.8em !important;
+	border: 1px solid #bbb !important;
+}
+/* FORM END */
 /* ANIMATION */
 @keyframes beatHeart {
   0% {
