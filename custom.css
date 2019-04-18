@@ -151,6 +151,9 @@ nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover:after {
 .woocommerce .woocommerce-message {
 	background: #4CAF50 !important;
 }
+.woocommerce a.restore-item {
+	color: #fff !important;
+}
 /* WC GENERIC END */
 /* PRODUCT LOOP */
 .woocommerce ul.products li.product .woocommerce-loop-product__title {
@@ -430,6 +433,26 @@ select option {
 	border: 1px solid #bbb !important;
 }
 /* FORM END */
+/* COUNT */
+.et-cart-info span.count i {
+	font-style: unset !important;
+	background: #2196F3;
+	color: #fff;
+	font-size: 0.6em;
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 2em;
+}
+.et-cart-info span:before {
+    margin-right: -3px;
+}
+#et-top-navigation .et-cart-info {
+    font-weight: 500;
+}
+/* COUNT END */
 /* ANIMATION */
 @keyframes beatHeart {
   0% {
