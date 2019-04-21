@@ -11,4 +11,6 @@
 
 Use by copy the css ([custom.css](https://github.com/izzuddinfz/divi-woomyacc/blob/master/custom.css)) code to the Custom CSS in Divi > Theme Option else copy this css ([custom.css](https://github.com/izzuddinfz/divi-woomyacc/blob/master/custom.css)) to your child theme css.
 
+If you didn't want to use the divi button and form assets inside WooCommerce, use this ([custom-materialbtn.css](https://github.com/izzuddinfz/divi-woomyacc/blob/master/custom-materialbtn.css)) which is using button like Material.
+
 If you need the function, copy ([functions.php](https://github.com/izzuddinfz/divi-woomyacc/blob/master/functions.php)) to functions.php.
