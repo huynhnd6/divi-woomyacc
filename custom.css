@@ -412,14 +412,14 @@ nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover:after {
 .woocommerce-cart table.cart td.actions .coupon .input-text,
 .woocommerce-page #content .quantity input.qty,
 .woocommerce-page .quantity input.qty,
-input.text,
-input.title,
-input[type=email],
-input[type=password],
-input[type=tel],
-input[type=text],
-select,
-textarea {
+.woocommerce input.text,
+.woocommerce input.title,
+.woocommerce input[type=email],
+.woocommerce input[type=password],
+.woocommerce input[type=tel],
+.woocommerce input[type=text],
+.woocommerce select,
+.woocommerce textarea {
     padding: 0.5em 0.8em !important;
     font-size: 1em !important;
 	height: unset !important;
@@ -428,7 +428,7 @@ textarea {
     background-color: #fff !important;
 	border-radius: 3px;
 }
-select option {
+.woocommerce select option {
 	padding: 0.5em 0.8em !important;
 	border: 1px solid #bbb !important;
 }
