@@ -1,5 +1,5 @@
 # Divi WooCommerce
-> The css that previously makes My Account (now whole WooCommerce) page better on Divi theme.
+> The CSS that make WooCommerce (previously My Account) page better on Divi theme.
 
 ![screenshot](https://github.com/izzuddinfz/divi-woomyacc/raw/master/Annotation%202019-04-19%20030003.png)
 
